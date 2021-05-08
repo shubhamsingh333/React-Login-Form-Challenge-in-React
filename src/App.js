@@ -58,7 +58,7 @@ const App = () => {
           <br/>
           <input
             type="text"
-            placeholder="Enter your lName"
+            placeholder="Enter your lname"
             name="lName"
             onChange={InputEvent}
             value={fullName.lname}
