@@ -72,6 +72,8 @@ const App = () => {
           <h1>
             Hello {fullName.fname} 
             {fullName.lname}
+            <p>{fullName.email}</p>
+            <p>{fullName.phone}</p>
           </h1>
           <input
             type="text"
