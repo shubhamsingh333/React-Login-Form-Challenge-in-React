@@ -19,14 +19,40 @@ const App = () => {
       if (name === "fName") {
         return {
           fname: value,
-          lname: prepValue.lname
+          lname: prepValue.lname,
+          email:prepValue.email,
+          phone:prepValue.phone
         };
       }
       else
         if (name === "lName") {
         return {
           fname: prepValue.fname,
-          lname: value
+          lname: value,
+          email:prepValue.email,
+          phone:prepValue.phone
+        };
+      
+
+      }
+      else
+        if (name === "email") {
+        return {
+          fname: prepValue.fname,
+          lname: prepValue.lname,
+          email:value,
+          phone:prepValue.phone
+        };
+      
+
+      }
+      else
+        if (name === "phone") {
+        return {
+          fname: prepValue.fname,
+          lname: prepValue.lname,
+          email:prepValue.email,
+          phone:value
         };
       
 
